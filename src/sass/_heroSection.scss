@@ -1,0 +1,28 @@
+  #lastPost{
+        height: 34vh;
+        background-image: url('../assets/images/imagen1.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+  .dark-gradient{
+    height: 20vh;
+    width: 100%;
+    background: linear-gradient(to top, #333333, rgba(0,0,0,0));
+  }
+
+   .titulo{
+    color: #fff;
+    height: 1rem;
+    font-family: '../assets/fonts/Poppins-Bold.ttf';
+    text-align: left;
+    margin-left: 1rem;
+  }
+
+  .subtitulo{
+    color: #fff;
+    height: 1rem;
+    font-family: '../assets/fonts/Poppins-Regular.ttf';
+        text-align: left;
+        margin-left: 1rem;
+  }

@@ -1,0 +1,50 @@
+img{
+    width: 100%;
+    height: 100%;
+}
+
+.date{
+    font-size: 1em;
+      font-family: '../assets/fonts/Poppins-Bold.ttf';
+      border-bottom: 2px solid #178671;
+}
+
+.post-title{
+    font-size: 1em;
+      font-family: '../assets/fonts/Poppins-Bold.ttf';
+}
+
+.subtitle{
+    color: #178671;
+    font-family: '../assets/fonts/Poppins-Bold.ttf';
+    font-size: 1rem;
+    margin-bottom: 0;
+}
+
+p{
+    font-size: 1em;
+    color: #8E8E8E;
+    margin-bottom: 0;
+    text-align: justify;
+      font-family: '../assets/fonts/Poppins-Bold.ttf';
+}
+
+.icon{
+    height: 2em;
+    width: 2em;
+}
+
+.status{
+    margin-top: 8px;
+    font-size: 1rem;
+}
+
+.post{
+    margin-top: 20px;
+    padding-bottom: 8px;
+    border-bottom: 1px solid #E7E7E7;
+}
+
+.boton{
+        font-family: '../assets/fonts/Poppins-Bold.ttf';
+}
