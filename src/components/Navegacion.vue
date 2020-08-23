@@ -2,7 +2,7 @@
  <div>
     <!-- navbar bootstrap -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-danger">
-      <a class="navbar-brand ml-5" href="#">JsonPlaceholder</a>
+      <a class="navbar-brand ml-5" href="#">Versión de Avance</a>
       <button
         class="navbar-toggler"
         type="button"

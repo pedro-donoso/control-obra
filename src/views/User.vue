@@ -3,9 +3,9 @@
     <table class="table table-sm table-responsive bg-white" >
       <thead class="bg-success">
         <tr>
-          <th scope="col">ID</th>
-          <th scope="col">Usuario</th>
-          <th scope="col">Email</th>
+          <th scope="col">Obra</th>
+          <th scope="col">Responsable</th>
+          <th scope="col">Contacto</th>
         </tr>
       </thead>
       <tbody v-for="user in users" :key="user.id" class="tabla">
