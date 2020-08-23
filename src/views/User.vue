@@ -1,7 +1,7 @@
 <template>
   <div class="container">
     <table class="table bg-white text-justify" >
-      <thead class="bg-success text-justify">
+      <thead class="bg-success text-justify container">
         <tr>
           <th scope="col">ID</th>
           <th scope="col">Usuario</th>
