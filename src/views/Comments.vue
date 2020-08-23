@@ -3,8 +3,8 @@
     <table class="table bg-white text-justify" >
       <thead class="bg-success text-justify">
         <tr>
-          <th scope="col">ID</th>
-          <th scope="col">Body Post</th>
+          <th scope="col">Obra</th>
+          <th scope="col">Descripción del Proyecto</th>
         </tr>
       </thead>
       <tbody v-for="comment in comments" :key="comment.id">

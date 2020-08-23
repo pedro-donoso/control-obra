@@ -3,8 +3,8 @@
     <table class="table bg-white text-justify" >
       <thead class="bg-success text-justify">
         <tr>
-          <th scope="col">ID</th>
-          <th scope="col">Title</th>
+          <th scope="col">Obra</th>
+          <th scope="col">Etapa Actual</th>
         </tr>
       </thead>
       <tbody v-for="album in albums" :key="album">
