@@ -18,19 +18,19 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav mx-auto">
             <li class="nav-item mr-5">
-              <router-link to="/user">User</router-link>
+              <router-link to="/user">Obras</router-link>
             </li>
              <li class="nav-item mr-5">
-              <router-link to="/posts">Posts</router-link>
+              <router-link to="/posts">Revisión</router-link>
             </li>
               <li class="nav-item mr-5">
-              <router-link to="/comments">Comments</router-link>
+              <router-link to="/comments">Detalles</router-link>
             </li>
               <li class="nav-item mr-5">
-              <router-link to="/albums">Albums</router-link>
+              <router-link to="/albums">Etapas</router-link>
             </li>
             <li class="nav-item mr-5">
-              <router-link to="/todos">Todos</router-link>
+              <router-link to="/todos">Avance</router-link>
             </li>
           </ul>
         </div>
