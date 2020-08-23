@@ -3,15 +3,13 @@
     <table class="table bg-white text-justify" >
       <thead class="bg-success text-justify">
         <tr>
-          <th scope="col">User ID</th>
           <th scope="col">ID</th>
           <th scope="col">Title</th>
         </tr>
       </thead>
       <tbody v-for="album in albums" :key="album">
         <tr>
-          <td scope="row">{{album.userId}}</td>
-          <td>{{album.id}}</td>
+          <td scope="row">{{album.id}}</td>
           <td>{{album.title}}</td>
         </tr>
       </tbody>
