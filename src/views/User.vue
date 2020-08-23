@@ -37,11 +37,8 @@ export default {
 };
 </script>
 
-<style lang="scss" scoped>
-  .tabla{
-    width: 100%;
-    border: solid 1px red;
-  }
+<style lang="scss">
+
 
 
 

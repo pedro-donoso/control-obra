@@ -1,9 +1,9 @@
 <template>
   <div class="container-fluid" id="post">
-      <h6 class="post__title">Lista de posts</h6>
+      <h6 class="post__title">Lista de control</h6>
 
       <div class="post__buscador">
-           <input type="text" placeholder="Añadir post" v-model="nuevopost">
+           <input type="text" placeholder="Añadir revisión" v-model="nuevopost">
        
           <button class="btn-sm btn-primary" @click="agregarpost">Agregar</button> 
       </div>
