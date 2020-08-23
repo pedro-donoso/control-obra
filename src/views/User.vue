@@ -8,8 +8,6 @@
           <th scope="col">Email</th>
           <th scope="col">Dirección</th>
           <th scope="col">Ciudad</th>
-          <th scope="col">Teléfono</th>
-          <th scope="col">Sitio Web</th>
           <th scope="col">Compañía</th>
         </tr>
       </thead>
@@ -23,8 +21,6 @@
             <span>#{{user.address.suite}}</span>
           </td>
           <td>{{user.address.city}}</td>
-          <td>{{user.phone}}</td>
-          <td>{{user.website}}</td>
           <td>{{user.company.name}}</td>
         </tr>
       </tbody>
