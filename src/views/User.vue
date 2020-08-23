@@ -1,5 +1,5 @@
 <template>
-  <div class="container-fluid">
+  <div class="container">
     <table class="table table-sm bg-white text-justify" >
       <thead class="bg-success text-justify">
         <tr>
