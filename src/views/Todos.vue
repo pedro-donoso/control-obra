@@ -3,9 +3,9 @@
     <table class="table bg-white text-justify" >
       <thead class="bg-success text-justify">
         <tr>
-          <th scope="col">ID</th>
-          <th scope="col">title</th>
-          <th scope="col">completed</th>
+          <th scope="col">Obra</th>
+          <th scope="col">Faltante para Entrega</th>
+          <th scope="col">Completada</th>
         </tr>
       </thead>
       <tbody v-for="todo in todos" :key="todo">
