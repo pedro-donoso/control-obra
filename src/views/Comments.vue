@@ -1,21 +1,15 @@
 <template>
-  <div class="container">
+  <div>
     <table class="table bg-white text-justify" >
       <thead class="bg-success text-justify">
         <tr>
-          <th scope="col">Post ID</th>
           <th scope="col">ID</th>
-          <th scope="col">Name Post</th>
-          <th scope="col">Email</th>
           <th scope="col">Body Post</th>
         </tr>
       </thead>
       <tbody v-for="comment in comments" :key="comment.id">
         <tr>
-          <td scope="row">{{comment.postId}}</td>
-          <td>{{comment.id}}</td>
-          <td>{{comment.name}}</td>
-          <td>{{comment.email}}</td>
+          <td scope="row">{{comment.id}}</td>
           <td>{{comment.body}}</td>
         </tr>
       </tbody>
